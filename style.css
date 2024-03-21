@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background: linear-gradient(90deg, red, yellow, green, blue);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    transform-origin: right;
+    color: transparent;
+    animation: josse 15s linear infinite;
+}
+
+@keyframes josse {
+    0% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form label,
+form input,
+form button {
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+}
+
+form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
